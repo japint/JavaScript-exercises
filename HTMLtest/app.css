@@ -1,0 +1,17 @@
+body{
+    background-image: url(../../resources/img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+img{
+    width: auto;
+    height: 200px;
+    margin: 15px 25px 15px 25px;
+    border: 1px black;
+    border-radius: 15px;
+}
