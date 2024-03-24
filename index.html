@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body onload="alert('Document Loaded');">
+    <p id="test">This is a paragraph Test</p>
+    <img id="image" src="../resources/img/1.jpg" style="width: 300px;" alt="">
+    <button id="changeImg" onclick="document.getElementById('image').src = '../resources/img/2.jpg';">Change
+        Photo</button>
+    <p id="add">addition</p>
+
+    <input type="text" name="" id="test1" oninput="changeMe();" placeholder="Input your thoughts here">
+    <button onclick="document.getElementById('output').innerHTML = 'Button Clicked';">Click me to change the paragraph
+        tag</button>
+    <p id="output">Inner HTML</p>
+
+    <input type="text" name="" id="test2" oninput="overMe();" placeholder="Input your thoughts here">
+    <button onmouseover="document.getElementById('output2').innerHTML = 'Mouse Over';">Hover me to change the
+        paragraph
+        tag</button>
+    <p id="output2">Inner HTML</p>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
